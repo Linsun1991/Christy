@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    color: rgb(140, 9, 9);
+}
+h2{
+    color: rgb(3, 95, 21);
+    text-align: center;
+}
+p{
+    color: rgb(5, 69, 221);
+    display: block;
+    text-align: center;
+}
+body{
+    background-color: black;
+    background-image: url(./images/IMG_1322.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+    text-align: center;
+}
+.pattyimage{
+    width: 20%;
+    text-align: center;
+    float:inline-start;
+    text-decoration: line-through;
+}
+#modal{
+    background-color: rgb(4, 34, 80);
+    border: 200px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 300px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    overflow: auto;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    display: none;
+    /* display: none; */
+}
+.modal_textbox{
+    background-color: rgb(225, 225, 10);
+    margin: 60px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: 20px;
+    width: 70%;
+}
+#modalLevel1{
+    display: none;
+}
+#modalLevel2{
+    display: none;
+}
+#modalLevel3{
+    display: none;
+}
+#modalLooser{
+    display: none;
+}
+#modalWinner{
+    display: none;
+}
+#modalSame{
+    display: none;
+}
+#modalIntro{
+    display: block;
+}
+#imgdiv{
+    text-align: center;
+    width: 100%;
+}
+#close{
+    text-align: right;
+    margin-right: 20px;
+    color: brown;
+}
+#gameBtnModal1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+#gameBtnModal2{
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+}
+#gameBtnModal2{
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+}
+#plyBtnModal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#openModal{
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 20px;
+}
+#points{
+    color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    margin-left: 120px;
+}
+#score{
+    text-align: center;
+}
