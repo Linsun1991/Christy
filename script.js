@@ -124,3 +124,5 @@ retrnGmeBtn.addEventListener("click", retrn)
 exitGmeBtn.addEventListener("click", closeModal);
 playGmeBtn.addEventListener("click", playGame);
 myChoiceEl.addEventListener("change", dogSelection);
+
+
